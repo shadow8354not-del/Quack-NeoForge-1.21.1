@@ -15,7 +15,7 @@ A small Minecraft mod for **Minecraft 1.21.1** using **NeoForge 21.1.235**.
 
 Install JDK 21, open a terminal in the project directory, and run:
 
-- Windows: `\.gradlew.bat build`
+   - Windows: `.\gradlew.bat build`
 - Linux/macOS: `./gradlew build`
 
 The built mod JAR will be in `build/libs/`.
