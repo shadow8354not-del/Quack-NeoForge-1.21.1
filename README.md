@@ -15,10 +15,14 @@ A small Minecraft mod for **Minecraft 1.21.1** using **NeoForge 21.1.235**.
 
 Install JDK 21, open a terminal in the project directory, and run:
 
-   - Windows: `.\gradlew.bat build`
+- Windows: `\.gradlew.bat build`
 - Linux/macOS: `./gradlew build`
 
 The built mod JAR will be in `build/libs/`.
+
+## License
+
+Quack's original source code and assets authored for this project are licensed under the MIT License; see [LICENSE](LICENSE). Files inherited from the NeoForge MDK template retain the license terms in [TEMPLATE_LICENSE.txt](TEMPLATE_LICENSE.txt). Minecraft and any other third-party assets are not relicensed by this project.
 
 ## Development
 
