@@ -1,0 +1,8 @@
+{
+  "item.quack.rubber_duck": "Резиновая уточка",
+  "message.quack.quack": "Кря!",
+  "quack.configuration.title": "Настройки Quack",
+  "quack.configuration.section.quack.server.toml": "Настройки сервера Quack",
+  "quack.configuration.section.quack.server.toml.title": "Настройки сервера Quack",
+  "quack.configuration.showQuackMessage": "Показывать сообщение в чате при использовании уточки"
+}

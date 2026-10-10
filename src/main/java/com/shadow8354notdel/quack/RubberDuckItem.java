@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.shadow8354notdel.quack;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundSource;
@@ -11,7 +11,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class RubberDuckItem extends Item {
-
     public RubberDuckItem(Properties properties) {
         super(properties);
     }
@@ -22,7 +21,7 @@ public class RubberDuckItem extends Item {
 
         if (!level.isClientSide) {
             if (Config.SHOW_QUACK_MESSAGE.get()) {
-                player.sendSystemMessage(Component.translatable("message.examplemod.quack"));
+                player.sendSystemMessage(Component.translatable("message.quack.quack"));
             }
             player.getCooldowns().addCooldown(this, 20);
         }
@@ -32,7 +31,7 @@ public class RubberDuckItem extends Item {
                 player.getX(),
                 player.getY(),
                 player.getZ(),
-                ModSounds.QUACK.get(),
+                QuackSounds.QUACK.get(),
                 SoundSource.PLAYERS,
                 1.0F,
                 1.0F

@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.shadow8354notdel.quack;
 
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -9,19 +9,15 @@ import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsE
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
-// This class is only loaded on the client.
-@Mod(value = ExampleMod.MODID, dist = Dist.CLIENT)
-@EventBusSubscriber(modid = ExampleMod.MODID, value = Dist.CLIENT)
-public class ExampleModClient {
-    public ExampleModClient(ModContainer container) {
+@Mod(value = Quack.MODID, dist = Dist.CLIENT)
+@EventBusSubscriber(modid = Quack.MODID, value = Dist.CLIENT)
+public class QuackClient {
+    public QuackClient(ModContainer container) {
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
     }
 
     @SubscribeEvent
     public static void registerClientExtensions(RegisterClientExtensionsEvent event) {
-        event.registerItem(
-                new RubberDuckClientExtensions(),
-                ExampleMod.RUBBER_DUCK.get()
-        );
+        event.registerItem(new RubberDuckClientExtensions(), Quack.RUBBER_DUCK.get());
     }
 }

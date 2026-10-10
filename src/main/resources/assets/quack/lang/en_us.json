@@ -1,0 +1,8 @@
+{
+  "item.quack.rubber_duck": "Rubber Duck",
+  "message.quack.quack": "Quack!",
+  "quack.configuration.title": "Quack Settings",
+  "quack.configuration.section.quack.server.toml": "Quack Server Settings",
+  "quack.configuration.section.quack.server.toml.title": "Quack Server Settings",
+  "quack.configuration.showQuackMessage": "Show a chat message when the duck is used"
+}

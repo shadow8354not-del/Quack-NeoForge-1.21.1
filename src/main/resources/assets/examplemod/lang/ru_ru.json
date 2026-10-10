@@ -1,8 +1,0 @@
-{
-  "item.examplemod.rubber_duck": "Резиновая уточка",
-  "message.examplemod.quack": "Кря!",
-  "examplemod.configuration.title": "Настройки Quack",
-  "examplemod.configuration.section.examplemod.server.toml": "Настройки сервера Quack",
-  "examplemod.configuration.section.examplemod.server.toml.title": "Настройки сервера Quack",
-  "examplemod.configuration.showQuackMessage": "Показывать сообщение в чате при использовании уточки"
-}

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "examplemod:item/rubber_duck"
+    "layer0": "quack:item/rubber_duck"
   }
 }

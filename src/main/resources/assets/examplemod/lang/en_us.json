@@ -1,8 +1,0 @@
-{
-  "item.examplemod.rubber_duck": "Rubber Duck",
-  "message.examplemod.quack": "Quack!",
-  "examplemod.configuration.title": "Quack Settings",
-  "examplemod.configuration.section.examplemod.server.toml": "Quack Server Settings",
-  "examplemod.configuration.section.examplemod.server.toml.title": "Quack Server Settings",
-  "examplemod.configuration.showQuackMessage": "Show a chat message when the duck is used"
-}

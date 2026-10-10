@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.shadow8354notdel.quack;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
@@ -10,9 +10,9 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-@Mod(ExampleMod.MODID)
-public class ExampleMod {
-    public static final String MODID = "examplemod";
+@Mod(Quack.MODID)
+public class Quack {
+    public static final String MODID = "quack";
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
 
@@ -21,11 +21,10 @@ public class ExampleMod {
             () -> new RubberDuckItem(new Item.Properties().stacksTo(1))
     );
 
-    public ExampleMod(IEventBus modEventBus, ModContainer modContainer) {
-        ModSounds.SOUND_EVENTS.register(modEventBus);
+    public Quack(IEventBus modEventBus, ModContainer modContainer) {
+        QuackSounds.SOUND_EVENTS.register(modEventBus);
         ITEMS.register(modEventBus);
         modEventBus.addListener(this::addCreative);
-
         modContainer.registerConfig(ModConfig.Type.SERVER, Config.SPEC);
     }
 
