@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "LYL",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:dried_kelp"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "id": "examplemod:rubber_duck",
+    "count": 1
+  }
+}
