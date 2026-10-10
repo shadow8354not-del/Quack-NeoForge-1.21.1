@@ -16,7 +16,7 @@ A small Minecraft mod for **Minecraft 1.21.1** using **NeoForge**.
 2. Open a terminal in the project directory.
 3. Run the Gradle build:
 
-   - Windows: `\.gradlew.bat build`
+   - Windows: `.\gradlew.bat build`
    - Linux/macOS: `./gradlew build`
 
 The built mod JAR will be in `build/libs/`.
